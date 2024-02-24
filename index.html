@@ -57,7 +57,7 @@
           <span class="highlight">Professionalism</span>
         </h1>
         <!--Tying-->
-        <h4 class="logo">Techwips | Home of 
+        <h4 class="logo">Teckwips | Home of 
           <span class="typed-text"></span>
           <span class="cursor">&nbsp;</span>
         </h4>
@@ -71,24 +71,30 @@
     </header>
 
     <header class="navigation-header">
-      <nav>
-        <div class="logo-container">
-              <a class = "anchor" href="./index.html">
-               Teckwips
-              </a>
-          </div>
+    
+    <div class="second_nav_wrapper">
+      <div class="div_nav">
+       <img src="images/Logo_new.png" alt=""class="res_img" />
+       <a class = "anchor" href="./index.html">Teckwips</a>
+     </div>
+
+
+       <div class="hamburger">
+        <span id="openHam">&#9776;</span>
+        <span id="closeHam">&#x2716;</span>
+      </div>    
+    </div>
+
+      <nav class="res_nav">
           <!-- <img src="images/Logo_new.png" alt=""/> -->
           <div class="navigation-items" id="navigation-items">
               <a href="#section--1">About Us</a>
               <a href="#section--2">FAQ</a>
               <a href="#section--3">Services</a>
-              <a class="nav__link nav__link--btn btn--show-modal" href="#">Contact Us</a>
+              <a class="btn--show-modal" href="#">Contact Us</a>
           </div>
-          <div class="hamburger">
-              <span id="openHam">&#9776;</span>
-              <span id="closeHam">&#x2716;</span>
-          </div>
-      </nav>
+        </nav>
+         
      </header>
 
 
@@ -124,7 +130,7 @@
   </div>
 
   <div id="fullContent">
-    <p>In the realm of network security, my company takes a holistic approach, implementing a range of solutions to fortify our clients' computer networks against potential threats and unauthorized access. Our goal is to ensure the utmost confidentiality, integrity, and availability of their crucial information. We leverage robust firewalls to carefully manage incoming and outgoing traffic, coupled with advanced intrusion detection and prevention systems for real-time monitoring of potential threats...</p>
+    <p>In the realm of network security, my company takes a holistic approach, implementing a range of solutions to fortify our clients' computer networks against potential threats and unauthorized access. Our goal is to ensure the utmost confidentiality, integrity, and availability of their crucial information. We leverage robust firewalls to carefully manage incoming and outgoing traffic, coupled with advanced intrusion detection and prevention systems for real-time monitoring of potential threats</p>
     <button  class="view" onclick="toggleContent()">View Less</button>
   </div>
         </div>
@@ -158,14 +164,14 @@
           src="images/grow-lazy.jpg"
           data-src="images/grow.jpg"
           alt="Plant"
-          class="features__img lazy-img move_grow"
+          class="features__img lazy-img"
         />
 
         <img
           src="images/card-lazy.jpg"
           data-src="images/card.jpg"
           alt="Credit card"
-          class="features__img lazy-img move_card"
+          class="features__img lazy-img"
         />
         <div class="features__feature">
           <div class="features__icon">
@@ -194,6 +200,46 @@
         </div>
       </div>
     </section>
+
+    <!-- section responsive -->
+    <section class="section_extra section-three">
+      <div class="container row">
+          
+              <div class="col">
+                  <h2 class="section-title section-title-f"> <b> Network security and process optimization.</b></h2>
+                  <p>In the realm of network security, my company takes a holistic approach, 
+                    implementing a range of solutions to fortify our clients' 
+                    computer networks against potential threats and unauthorized access
+                    In the realm of network security, my company takes a holistic approach, 
+                    implementing a range of solutions to fortify our clients' computer networks against potential threats and unauthorized access.
+                   </p>
+                </div>
+              <div class="col">
+                  <img class="img_extra" src="images/digital-lazy.jpg" alt="img">
+              </div>
+        
+      </div>
+  </section>
+  <!-- section responsive -->
+  <section class="section_extra section-four">
+      <div class="container row">
+         
+              <div class="col">
+                  <img class="Img_extra card" src="images/card-lazy.jpg" alt="img2">
+              </div>
+              <div class="col">
+                  <h2 class="section-title section-title-2">Our process optimization strategy!</h2>
+                  <p>At our company, we are passionate about helping businesses achieve operational excellence through strategic process optimization solutions. 
+                    Our focus is on streamlining and enhancing workflows to drive efficiency and productivity. 
+                    We specialize in implementing automation solutions that go beyond reducing manual efforts and extend to transforming entire processes. 
+                    From workflow automation to the integration of robotic process automation (RPA) and smart technologies, 
+                    we tailor our approach to meet the unique needs of each client. By optimizing processes, we empower businesses to operate more smoothly 
+                    allocate resources effectively, and achieve their goals with greater speed and precision. </p>
+              </div>
+         
+      </div>
+  </section>
+
 
     <section class="section" id="section--2">
       <div class="section__title">
@@ -283,8 +329,7 @@
               <!-- When teckwips installed smart locks in my home, 
               I was impressed with the convenience, security, and smart features they provided.  -->
               The installation Teckwips did was very neat and the team was very detailed in their explanations of how the smart door lock systems work. 
-              The lock itself gave a nice look to the door and entrance into my home. 
-              I recommend Teckwips to anyone interested in upgrading their home security and also smartening their homes.
+              The lock itself gave a nice look to the door and entrance into my home.
             </blockquote>
             <address class="testimonial__author">
               <img src="images/user-1.jpg" alt="" class="testimonial__photo" />
