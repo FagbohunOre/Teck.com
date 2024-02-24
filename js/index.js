@@ -5,6 +5,10 @@ const overlay = document.querySelector('.overlay')
 const btnCloseModal = document.querySelector('.btn--close-modal')
 const btnOpenModal = document.querySelectorAll('.btn--show-modal')
 
+const resNav = document.querySelector('.res_nav')
+const openHam= document.querySelector('.openHam')
+const closeHam = document.querySelector('.closeHam')
+
 const openModal = function(){ 
 	modal.classList.remove('hidden')
 	overlay.classList.remove('hidden')
@@ -325,6 +329,18 @@ function type() {
 	  fullContent.style.display = "block";
 	}
   }
+
+  const openNav = function(){ 
+	resNav.classList.remove('hidden')
+} 
+
+const closeNav = function(){
+	resNav.classList.add('hidden')
+}
+
+openHam.addEventListener('click', openHam)
+
+btnCloseModal.addEventListener('click', closeHam)
 
 // creating responsive navbar
 
