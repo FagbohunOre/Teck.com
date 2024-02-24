@@ -777,6 +777,10 @@
   @media screen and (max-width:990px){
 
 	body{
+		 background-size: cover;
+                 background-repeat: no-repeat;
+                 background-position: center;
+                background-attachment: fixed;
 		font-size: 75.5%;
 		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	}
