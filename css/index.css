@@ -774,9 +774,12 @@
   @media screen and (max-width:900px){
 
 	body{
-		font-size: 98%;
+		font-size: 60.5%;
 		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	}
+	  .header{
+		  max-width: 900px;
+	  }
 
 	/* creating Hamburger*/
 	.navigation-header{
@@ -873,7 +876,7 @@
 		display: none;
 	}
       #section--2{
-         display:none;
+        
       }
 	.section-title-2{
       color: #222;
