@@ -764,6 +764,9 @@
 .navigation-header{
 	display: none;
 }
+.envelope{
+	color: white;
+}
   .hamburger {
 	display: none;
 	font-size: 20px;
@@ -771,15 +774,12 @@
 	color: white;
   }
 
-  @media screen and (max-width:900px){
+  @media screen and (max-width:990px){
 
 	body{
-		font-size: 60.5%;
+		font-size: 75.5%;
 		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	}
-	  .header{
-		  max-width: 900px;
-	  }
 
 	/* creating Hamburger*/
 	.navigation-header{
@@ -797,9 +797,12 @@
     .res_img{
 	   width: 100px;
 	   height: 100px;
-	   left: 200px;
+	   left: 170px;
 	   top: -20px;
     }
+	#section--2{
+		max-width: 990px;
+	}
 
 	.res_nav{
 		display: flex;
@@ -811,12 +814,13 @@
 	}
 	.navigation-items{
       background-color: #fff;
-	  width: 1000px;
+	  width: 990px;
 	  padding: 10px;
 	  margin: 20px;
 	}
 	.navigation-items a{
 		background-color: #444;
+		font-size: 20px;
 		color: #f3f3f3;
 		display: block;
 		padding: 25px;
@@ -833,11 +837,12 @@
 		display: flex;
 		cursor: pointer;
 	}
-	.hamburger #closeHam {
-		display: none;
-		color: #fff;
+	.hamburger .closeHam {
+		position: relative;
+        color: #fff;
+		top: -100px;
 	  }
-	.hamburger #openHam{
+	.hamburger .openHam{
 		position: relative;
 		  color: #fff;
 		  top: -100px;
@@ -875,24 +880,64 @@
 	#section--1{
 		display: none;
 	}
-      #section--2{
-        max-width: 854px;
-      }
+	#section--2{
+		max-width: 990px;
+	}
 	.section-title-2{
-      color: #222;
+      color: #130a0a;
 	}
 	.card{
-      max-width: 100%;
+		max-width: 100%;
    }
    .section-four{
 	background-color: #644135;
+   }
+   .section-four p{
+	font-size: 10px;
+   }
+   .section-three p{
+	font-size: 10px;
    }
    .container p{
 	color: #fff;
    }
    .section-title-f{
-	color: #644135;
+	color: #7e3d27;
    }
+
+
+   .operations {
+	max-width: 990px;
+	margin: 10rem auto 0 auto;
+  
+	background-color: #fff;
+  }
+
+  .operations p{
+	display: flex;
+	font-size: 90%;
+  }
+  
+  .operations__tab-container {
+	max-width: 990px;
+	display: flex;
+	justify-content: center;
+  }
+  
+  .operations__tab {
+	margin-right: .5rem;
+	transform: translateY(-50%);
+  }
+  
+  .operations__tab span {
+	margin-right: 1rem;
+	font-weight: 200;
+	display: inline-block;
+  }
+
+  .modal__header{
+	font-size: 15px;
+  }
 
   }
 
