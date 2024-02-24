@@ -876,13 +876,13 @@
 		display: none;
 	}
       #section--2{
-        display: none;
+        max-width: 854px;
       }
 	.section-title-2{
       color: #222;
 	}
 	.card{
-		max-width: 100%;
+      max-width: 100%;
    }
    .section-four{
 	background-color: #644135;
