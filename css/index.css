@@ -600,7 +600,15 @@
 	z-index: 1000;
 	transition: all 0.5s;
   }
-  
+  .icons i{
+	color: #8dc79b;
+	text-decoration: none;
+	font-size: 15px;
+	margin-left: 10px;
+  }
+  .icons i:hover{
+	color: rgba(0, 0, 0, 0.5);
+  }
   .overlay {
 	position: fixed;
 	top: 0;
@@ -656,7 +664,6 @@
 	border: none;
 	background: none;
   }
-  
   .hidden {
 	visibility: hidden;
 	opacity: 0;
@@ -767,12 +774,6 @@
 .envelope{
 	color: white;
 }
-  .hamburger {
-	display: none;
-	font-size: 20px;
-	font-weight: 800;
-	color: white;
-  }
 
   @media screen and (max-width:990px){
 
@@ -782,75 +783,7 @@
 	}
 
 	/* creating Hamburger*/
-	.navigation-header{
-		position: absolute;
-		max-width: 100%;
-		top: 0;
-		display: block;
-	}
-	.second_nav_wrapper{
-		background-color: #444;
-		padding: 2px;
-		height: 50px;
-	}
-
-    .res_img{
-	   width: 100px;
-	   height: 100px;
-	   left: 170px;
-	   top: -20px;
-    }
-	#section--2{
-		max-width: 990px;
-	}
-
-	.res_nav{
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		padding: 10px;
-		background-color: #39b385;
-
-	}
-	.navigation-items{
-      background-color: #fff;
-	  width: 990px;
-	  padding: 10px;
-	  margin: 20px;
-	}
-	.navigation-items a{
-		background-color: #444;
-		font-size: 20px;
-		color: #f3f3f3;
-		display: block;
-		padding: 25px;
-		margin-bottom: 10px;
-	}
-	.navigation-items a:hover{
-		color: bisque;
-	}
-
-	#shortContent{
-		width: 100%;
-	}
-	.hamburger {
-		display: flex;
-		cursor: pointer;
-	}
-	.hamburger .closeHam {
-		position: relative;
-        color: #fff;
-		top: -100px;
-	  }
-	.hamburger .openHam{
-		position: relative;
-		  color: #fff;
-		  top: -100px;
-	  }
-	.nav{
-		display: none;
-	}
-
+	
 
 	/*creating responsive extra */
 	.img_extra{
@@ -890,13 +823,31 @@
 		max-width: 100%;
    }
    .section-four{
-	background-color: #644135;
+	background-color: #853b22;
+   }
+   .section-five{
+	background-color: #1b1f1e;
+   }
+   .section-six{
+	background-color: #222c2a;
+   }
+   .section-five .section-title{
+	color: #ffbb00;
+   }
+   .section-six .section-title{
+	color: #fd424b;;
+   }
+   .section-five p{
+	font-size: 11.5px;
+   }
+   .section-six p{
+	font-size: 11.5px;
    }
    .section-four p{
-	font-size: 10px;
+	font-size: 11.5px;
    }
    .section-three p{
-	font-size: 10px;
+	font-size: 11.5px;
    }
    .container p{
 	color: #fff;
