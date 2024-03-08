@@ -783,7 +783,9 @@
 	}
 
 	/* creating Hamburger*/
-
+       .nav{
+         display: none;
+       }
 
 	/*creating responsive extra */
 	.img_extra{
