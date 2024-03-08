@@ -778,12 +778,12 @@
   @media screen and (max-width:990px){
 
 	body{
-		font-size: 75.5%;
+		font-size: 100%;
 		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	}
 
 	/* creating Hamburger*/
-	
+
 
 	/*creating responsive extra */
 	.img_extra{
@@ -817,46 +817,47 @@
 		max-width: 990px;
 	}
 	.section-title-2{
-      color: #fd424b;
+      color: #130a0a;
 	}
 	.card{
 		max-width: 100%;
    }
    .section-four{
-	background-color: #853b22;
+	background-color: #222c2a;
    }
    .section-five{
 	background-color: #1b1f1e;
    }
    .section-six{
-	background-color: #222c2a;
+	background-color: #1b1f1e;
    }
    .section-five .section-title{
 	color: #ffbb00;
    }
    .section-six .section-title{
-	color: #fd424b;;
+	color: #fd424b;
    }
    .section-five p{
-	font-size: 12.8px;
+	font-size: 12.5px;
    }
    .section-six p{
-	font-size: 12.8px;
+	font-size: 12.5px;
    }
    .section-four p{
-	font-size: 12.8px;
+	font-size: 12.5px;
    }
    .section-three p{
-	font-size: 12.8px;
+	font-size: 12.5px;
    }
    .container p{
 	color: #fff;
    }
    .section-title-f{
-	color: #ffbb00;
+	color: #fd424b;
    }
-
-
+  .section-title-2{
+	color: #ffbb00;
+  }
    .operations {
 	max-width: 990px;
 	margin: 10rem auto 0 auto;
