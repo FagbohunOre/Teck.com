@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://icono-49d6.kxcdn.com/icono.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -22,7 +23,7 @@
     <header class="header">
       <nav class="nav">
         <img
-          src="images/Logo_new.png"
+          src="images/Logo_new_ct.jpg"
           alt="Bankist logo"
           class="nav__logo"
           id="logo"
@@ -45,6 +46,37 @@
             >
           </li>
         </ul>
+      </nav>
+
+      <!--Second Navbar-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/Logo_new.png" alt="" width="100" height="100"/>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
 
       <div class="header__title">
@@ -70,11 +102,45 @@
       </div>
     </header>
 
+    <!--Mission and Vision-->
+    <section class="section mission" id="section--3">
+      <div class="section__title">
+        <h2 class="section__description">Mission</h2>
+        <h3 class="section__header">
+         <b>Our mission and why you should choose teckwips Ⓜ.</b>
+        </h3>
+      </div>
+<div class="mission_card">
+    <div class="card" style="width: 40rem;">
+      <img src="images/mission.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><b>Mission!</b></h5>
+        <p class="card-text">Teckwips Limited is a technology company that aims to provide affordable and high-quality Smart and Automated Residential 
+          and Business Solutions to meet clients' expectations. We strive to exceed clients' needs 
+          by delivering innovative solutions while pushing the limits of technology.
+           Our expertise and experience enable us to deliver exceptional results in a timely and cost-effective manner.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 40rem;">
+      <img src="images/Choose_us.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><b>Why Teckwips?</b></h5>
+        <p class="card-text">At Teckwips Limited, we are client-driven. We listen to your business needs and provide tailored-fit 
+          solutions to satisfy your IT developments and needs. We aim to be the best at providing the services that you need when you need them.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+
+    </section>
+
     <section class="section" id="section--1">
       <div class="section__title">
         <h2 class="section__description">Features</h2>
         <h3 class="section__header">
-         <b> Network security and process optimization.</b>
+         <b> Network security and process optimization 🔐.</b>
         </h3>
       </div>
 
@@ -95,14 +161,17 @@
 
           <!--Creating a view less and view more-->
   <div id="shortContent">
-    <p>In the realm of network security, my company takes a holistic approach, 
-      implementing a range of solutions to fortify our clients' 
-      computer networks against potential threats and unauthorized access...</p>
-    <button class="view" onclick="toggleContent()">View More</button>
+    <p>Teckwips is a leading provider of Smart Automation and IoT solutions. Our company is registered with 
+       the Corporate Affairs Commission of the Federal Republic of Nigeria under registration number RC6909395.
+       We offer a wide range of services, including consultation and procurement of computers, 
+       networking, and other technological devices. Our team of experts works closely...</p>
+    <button class="view" onclick="toggleContent()">View</button>
   </div>
 
   <div id="fullContent">
-    <p>In the realm of network security, my company takes a holistic approach, implementing a range of solutions to fortify our clients' computer networks against potential threats and unauthorized access. Our goal is to ensure the utmost confidentiality, integrity, and availability of their crucial information. We leverage robust firewalls to carefully manage incoming and outgoing traffic, coupled with advanced intrusion detection and prevention systems for real-time monitoring of potential threats</p>
+    <p>with clients to customize solutions that meet their specific requirements.
+       We partner with leading names such as Cisco, Sophos, Hikvision, Dahua, and others to provide the latest technologies. 
+       Our automation solutions enhance safety, security, comfort, convenience, and entertainment. Contact us to learn more.</p>
     <button  class="view" onclick="toggleContent()">View Less</button>
   </div>
         </div>
@@ -119,7 +188,7 @@
               our company takes a holistic approach, implementing a range of solutions to fortify our clients' computer networks against potential threats and unauthorized access. 
               Our goal is to ensure the utmost confidentiality, integrity, 
               and availability of their crucial information...</p>
-            <button  class="view" onclick="toggleSecondContent()">View More</button>
+            <button  class="view" onclick="toggleSecondContent()">View</button>
           </div>
         
           <div id="SecondfullContent">
@@ -158,7 +227,7 @@
               Our focus is on streamlining and enhancing workflows to drive efficiency and productivity. 
               We specialize in implementing automation solutions that go beyond reducing manual efforts and extend to transforming entire processes... 
              </p>
-            <button  class="view" onclick="toggleThirdContent()">View More</button>
+            <button  class="view" onclick="toggleThirdContent()">View</button>
           </div>
         
           <div id="ThirdfullContent">
@@ -176,13 +245,14 @@
     <!-- section responsive -->
     <section class="section_extra section-three">
 
-      <h2 class="section__description services">Services</h2>
       <div class="container row">
             <div class="col">
-                  <h2 class="section-title section-title-f"> <b>Network security</b></h2>
-                  <p>In the realm of network security, my company takes a holistic approach, 
-                    implementing a range of solutions to fortify our clients' 
-                    computer networks against potential threats and unauthorized access.
+              <h2 class="section__description services">Services</h2>
+                  <h2 class="section-title section-title-f"> <b>Security Surveillance Systems & Devices</b></h2>
+                  <p>Teckwips Limited has a track record of experience in the design, installation, programming, 
+                    and comprehensive video management solutions for large multi-site facilities. 
+                    We deliver the market's broadest and most consistent range of high-quality network 
+                    cameras (Analog and IP CCTV) inclusive of ANPR (Automatic Number Plate Recognition).
                    </p>
                 </div>
               <div class="col">
@@ -200,11 +270,10 @@
               </div>
               <div class="col">
                   <h2 class="section-title section-title-2">Residential & Business Automations</h2>
-                  <p>At our company, we are passionate about helping businesses achieve operational excellence through strategic process optimization solutions. 
-                    Our focus is on streamlining and enhancing workflows to drive efficiency and productivity. 
-                    We specialize in implementing automation solutions that go beyond reducing manual efforts and extend to transforming entire processes. 
-                    From workflow automation to the integration of robotic process automation (RPA) and smart technologies, 
-                    we tailor our approach to meet the unique needs of each client. </p>
+                  <p>Teckwips Limited has extensive experience in the design, programmability, 
+                    and IoT solutions for all clients ranging from homes, offices, hospitals,
+                     hotels, and academia. There is a Teck Solution for everybody!
+                    </p>
               </div>
          
       </div>
@@ -216,11 +285,10 @@
       <div class="container row">
           
               <div class="col">
-                  <h2 class="section-title section-title-f"> <b>Information Technology Consultations</b></h2>
-                  <p> We offer IT consulting services that helps clients assess different technology. These
-                    services align technology strategies with business or process strategies, we support
-                    IT initiatives by providing strategic, architectural, operational, and implementation
-                    planning.
+                  <h2 class="section-title section-title-f"> <b>Consulting Services</b></h2>
+                  <p> Teckwips offers a wide range of technology consulting services with a strong emphasis on 
+                    residential and business space automation, security and surveillance improvements
+                     as well as other technological-related services.
                    </p>
                 </div>
               <div class="col">
@@ -253,7 +321,7 @@
       <div class="section__title">
         <h2 class="section__description">Operations</h2>
         <h3 class="section__header">
-          <b>Teckwips has got the answers to your smartlock questions.</b>
+          <b>Teckwips has got the answers to your smartlock questions 🤔.</b>
         </h3>
       </div>
 
@@ -325,7 +393,7 @@
       <div class="section__title section__title--testimonials">
         <h2 class="section__description">Not sure yet?</h2>
         <h3 class="section__header">
-          <b>Join Mr Opemipo and others in enjoying 100% customer satisfaction.</b>
+          <b>Join Mr Opemipo and others in enjoying 100% customer satisfaction 😆.</b>
         </h3>
       </div>
 
@@ -390,6 +458,109 @@
         <div class="dots"></div>
       </div>
     </section>
+ 
+    <!--Second slider-->
+    <section class="section">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Partners</h2>
+        <h3 class="section__header">
+          <b>Join our various partners around the world to support our products 👯‍♀️.</b>
+        </h3>
+        </div>
+
+        <div class="mission_card">
+          <div class="card" style="width: 40rem;">
+            <img src="images/partners/ajhua.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+              <a href="#" class="btn btn-primary" style="display: none;"></a>
+            </div>
+          </div>
+      
+          <div class="card" style="width: 40rem;">
+            <img src="images/partners/daayra.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" style="display: none;"></h5>
+              <p class="card-text"></p>
+              <a href="#" class="btn btn-primary" style="display: none;">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 40rem;">
+            <img src="images/partners/hdl.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" style="display: none;"></h5>
+              <p class="card-text"></p>
+              <a href="#" class="btn btn-primary" style="display: none;"></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="mission_card partners">
+          <div class="card" style="width: 40rem;">
+            <img src="images/partners/hikvision.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+              <a href="#" class="btn btn-primary" style="display: none;"></a>
+            </div>
+          </div>
+      
+          <div class="card" style="width: 40rem;">
+            <img src="images/partners/somfy.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" style="display: none;"></h5>
+              <p class="card-text"></p>
+              <a href="#" class="btn btn-primary" style="display: none;">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 40rem;">
+            <img src="images/partners/tuya.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" style="display: none;"></h5>
+              <p class="card-text"></p>
+              <a href="#" class="btn btn-primary" style="display: none;"></a>
+            </div>
+          </div>
+        </div>
+</section>
+
+    <!--Contact Us-->
+    <section class="section mission" style="background-color: #222c2a;" >
+      <div class="section__title">
+        <h2 class="section__description">Contact Us</h2>
+        <h3 class="section__header">
+         <b style="color: white;">We are just a message away 📝.</b>
+        </h3>
+      </div>
+     
+      <div class="container_contact">
+        <div style="text-align:center">
+          <h2 style="color:#fd424b;">Contact Us</h2>
+          <p style="color: #ffbb00;">Swing by for a cup of coffee, or leave us a message:</p>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="images/Logo_new_ct.jpg" class="" style="width:100%">
+          </div>
+          <div class="column">
+            <form action="mailto:fagbohunore@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+              <label style="color: #fd424b;" for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label style="color: #fd424b;" for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label style="color: #fd424b;" for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
+
+      </section>
 
     <footer class="footer">
       
@@ -412,7 +583,7 @@
     
     </footer>
 
-    <div class="modal hidden">
+    <!-- <div class="modal hidden">
       <button class="btn--close-modal">&times;</button>
       <h2 class="modal__header">
         Send us a message using our social media handles<br />
@@ -431,8 +602,9 @@
         </div>
       
     </div>
-    <div class="overlay hidden"></div>
+    <div class="overlay hidden"></div> -->
 
     <!-- <script src="script.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
