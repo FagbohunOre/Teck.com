@@ -144,9 +144,10 @@
   
   .nav__logo {
 	position: relative;
+	top: -20px;
 	left: -65px;
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: 100px;
 	/* height: 15.5rem;
 	width: 25.5rem; */
 	transition: all 0.3s;
@@ -160,7 +161,9 @@
   }
   
   .nav__links {
+	position: relative;
 	display: flex;
+	top: -10px;
 	align-items: center;
 	list-style: none;
   }
@@ -774,6 +777,75 @@
 .envelope{
 	color: white;
 }
+.navbar{
+	display: none;
+}
+
+/* Parnerts */
+.partners{
+	margin-top: 20px;
+}
+
+
+/* Section Mission */
+.mission{
+	display: block;
+	background-color: #222c2a;
+}
+
+section .mission_card{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+section .card{
+	margin-left: 20px;
+}
+
+/* Contact us */
+/* Style inputs */
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  }
+  
+  input[type=submit] {
+	background-color: #04AA6D;
+	color: black;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container_contact {
+	border-radius: 5px;
+	background-color: #222c2a;
+	padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+	float: left;
+	width: 50%;
+	margin-top: 6px;
+	padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
 
   @media screen and (max-width:990px){
 
@@ -781,11 +853,19 @@
 		font-size: 100%;
 		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	}
+	/* Contact Us */
+	.column, input[type=submit] {
+		width: 100%;
+		margin-top: 0;
+	  }
 
 	/* creating Hamburger*/
        .nav{
          display: none;
        }
+	   .navbar{
+		display: block;
+	}
 
 	/*creating responsive extra */
 	.img_extra{
@@ -840,16 +920,16 @@
 	color: #fd424b;
    }
    .section-five p{
-	font-size: 13px;
+	font-size: 13.5px;
    }
    .section-six p{
-	font-size: 13px;
+	font-size: 13.5px;
    }
    .section-four p{
-	font-size: 13px;
+	font-size: 13.5px;
    }
    .section-three p{
-	font-size: 13px;
+	font-size: 13.5px;
    }
    .container p{
 	color: #fff;
