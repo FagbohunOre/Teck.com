@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="shortcut icon" type="image/png" href="img/icon.png" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://icono-49d6.kxcdn.com/icono.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -48,37 +49,6 @@
         </ul>
       </nav>
 
-      <!--Second Navbar-->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="images/Logo_new.png" alt="" width="100" height="100"/>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">FAQ</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact US</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
       <div class="header__title">
         <!-- <h1 onclick="alert('HTML alert')"> -->
         <h1>
@@ -102,6 +72,37 @@
       </div>
     </header>
 
+     <!--Second Navbar-->
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/Logo_new.png" alt="" width="50" height="50"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <!--Mission and Vision-->
     <section class="section mission" id="section--3">
       <div class="section__title">
@@ -119,7 +120,7 @@
           and Business Solutions to meet clients' expectations. We strive to exceed clients' needs 
           by delivering innovative solutions while pushing the limits of technology.
            Our expertise and experience enable us to deliver exceptional results in a timely and cost-effective manner.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <a href="#" class="btn btn-primary" style="display: none;"></a>
       </div>
     </div>
 
@@ -129,7 +130,7 @@
         <h5 class="card-title"><b>Why Teckwips?</b></h5>
         <p class="card-text">At Teckwips Limited, we are client-driven. We listen to your business needs and provide tailored-fit 
           solutions to satisfy your IT developments and needs. We aim to be the best at providing the services that you need when you need them.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <a href="#" class="btn btn-primary" style="display: none;"></a>
       </div>
     </div>
   </div>
@@ -243,78 +244,7 @@
     </section>
 
     <!-- section responsive -->
-    <section class="section_extra section-three">
-
-      <div class="container row">
-            <div class="col">
-              <h2 class="section__description services">Services</h2>
-                  <h2 class="section-title section-title-f"> <b>Security Surveillance Systems & Devices</b></h2>
-                  <p>Teckwips Limited has a track record of experience in the design, installation, programming, 
-                    and comprehensive video management solutions for large multi-site facilities. 
-                    We deliver the market's broadest and most consistent range of high-quality network 
-                    cameras (Analog and IP CCTV) inclusive of ANPR (Automatic Number Plate Recognition).
-                   </p>
-                </div>
-              <div class="col">
-                  <img class="img_extra" src="images/digital-lazy.jpg" alt="img">
-              </div>
-        
-      </div>
-  </section>
-  <!-- section responsive -->
-  <section class="section_extra section-four">
-      <div class="container row">
-         `  ` ` 
-              <div class="col">
-                  <img class="Img_extra card" src="images/card-lazy.jpg" alt="img2">
-              </div>
-              <div class="col">
-                  <h2 class="section-title section-title-2">Residential & Business Automations</h2>
-                  <p>Teckwips Limited has extensive experience in the design, programmability, 
-                    and IoT solutions for all clients ranging from homes, offices, hospitals,
-                     hotels, and academia. There is a Teck Solution for everybody!
-                    </p>
-              </div>
-         
-      </div>
-  </section>
-
-  
-     <!-- section responsive _2 -->
-     <section class="section_extra section-five">
-      <div class="container row">
-          
-              <div class="col">
-                  <h2 class="section-title section-title-f"> <b>Consulting Services</b></h2>
-                  <p> Teckwips offers a wide range of technology consulting services with a strong emphasis on 
-                    residential and business space automation, security and surveillance improvements
-                     as well as other technological-related services.
-                   </p>
-                </div>
-              <div class="col">
-                  <img class="img_extra" src="images/ict.jpeg" alt="img">
-              </div>
-        
-      </div>
-  </section>
-  <!-- section responsive _2-->
-  <section class="section_extra section-six">
-      <div class="container row">
-         
-              <div class="col">
-                  <img class="Img_extra card" src="images/renewable.jpeg" alt="img2">
-              </div>
-              <div class="col">
-                  <h2 class="section-title section-title-2">Renewable Energy</h2>
-                  <p>Teckwips specialize in providing reliable solar energy solutions for both
-                    residential and commercial properties. We tailor our solar installations to
-                    meet your specific needs. Whether it's rooftop panels or ground-mounted arrays,
-                    We've got you covered. 
-                  </p>
-              </div>
-         
-      </div>
-  </section>
+   
 
 
     <section class="section" id="section--2">
@@ -389,10 +319,10 @@
     </section>
 
 
-    <section class="section" id="section--3">
+    <section class="section" id="section--3" style="background-color: #222c2a;">
       <div class="section__title section__title--testimonials">
-        <h2 class="section__description">Not sure yet?</h2>
-        <h3 class="section__header">
+        <h2 class="section__description" style="color: white;">Not sure yet?</h2>
+        <h3 class="section__header" style="color: white;">
           <b>Join Mr Opemipo and others in enjoying 100% customer satisfaction 😆.</b>
         </h3>
       </div>
@@ -400,8 +330,8 @@
       <div class="slider">
         <div class="slide">
           <div class="testimonial">
-            <h5 class="testimonial__header"><b>Best security decision ever!</b></h5>
-            <blockquote class="testimonial__text">
+            <h5 class="testimonial__header" style="color: white;"><b>Best security decision ever!</b></h5>
+            <blockquote class="testimonial__text" style="color: white;">
               <!-- When teckwips installed smart locks in my home, 
               I was impressed with the convenience, security, and smart features they provided.  -->
               The installation Teckwips did was very neat and the team was very detailed in their explanations of how the smart door lock systems work. 
@@ -409,46 +339,46 @@
             </blockquote>
             <address class="testimonial__author">
               <img src="images/user-1.jpg" alt="" class="testimonial__photo" />
-              <h6 class="testimonial__name"><b>Mr Opemipo</b></h6>
-              <p class="testimonial__location"> Lugbe Abuja, Nigeria</p>
+              <h6 class="testimonial__name" style="color: white;"><b>Mr Opemipo</b></h6>
+              <p class="testimonial__location" style="color: white;"> Lugbe Abuja, Nigeria</p>
             </address>
           </div>
         </div>
 
         <div class="slide">
           <div class="testimonial">
-            <h5 class="testimonial__header">
+            <h5 class="testimonial__header" style="color: white;">
               <b>Our incredible capabilities.?</b>
             </h5>
-            <blockquote class="testimonial__text">
+            <blockquote class="testimonial__text" style="color: white;">
               I recently had the pleasure of having Teckwips install smart locks in my home, 
               and I couldn't be happier with the results. These locks provide an added layer of security and peace of Mind.
               <!-- peace of mind and offer unparalleled convenience and smart features that make my day-to-day life super easy. 
               Being able to control and monitor my door locks from anywhere through my smartphone is a game-changer, 
               allowing me to grant access to trusted visitors even when I'm not home. -->
             </blockquote>
-            <address class="testimonial__author">
+            <address class="testimonial__author" style="color: white;">
               <img src="images/user-2.jpg" alt="" class="testimonial__photo" />
-              <h6 class="testimonial__name"><b>Mrs Isaac</b></h6>
-              <p class="testimonial__location">Kubwa Abuja, Nigeria</p>
+              <h6 class="testimonial__name" style="color: white;"><b>Mrs Isaac</b></h6>
+              <p class="testimonial__location" style="color: white;">Kubwa Abuja, Nigeria</p>
             </address>
           </div>
         </div>
 
         <div class="slide">
           <div class="testimonial">
-            <h5 class="testimonial__header">
+            <h5 class="testimonial__header" style="color: white;">
              <b>Chukwuma from Abuja likes our service.</b>
             </h5>
-            <blockquote class="testimonial__text">
+            <blockquote class="testimonial__text" style="color: white;">
               <!-- Teckwips had me feeling a lot like Elon Musk in my home with the security upgrade they installed.   -->
               The smart door lock installed by Teckwips improved my home security giving me full control over who has access to my home. 
               I love the upgrade and have referred them to all my friends too. Go Teckwips!!!
             </blockquote>
-            <address class="testimonial__author">
+            <address class="testimonial__author" style="color: white;">
               <img src="images/user-3.jpg" alt="" class="testimonial__photo" />
-              <h6 class="testimonial__name"><b>Chukwuma</b></h6>
-              <p class="testimonial__location">Lokogoma Abuja, Nigeria</p>
+              <h6 class="testimonial__name" style="color: white;"><b>Chukwuma</b></h6>
+              <p class="testimonial__location" style="color: white;">Lokogoma Abuja, Nigeria</p>
             </address>
           </div>
         </div>
@@ -460,11 +390,11 @@
     </section>
  
     <!--Second slider-->
-    <section class="section">
+    <section class="section"  id="section--3">
       <div class="section__title section__title--testimonials">
         <h2 class="section__description">Partners</h2>
         <h3 class="section__header">
-          <b>Join our various partners around the world to support our products 👯‍♀️.</b>
+          <b>Join our various partners around the world 👯‍♀️.</b>
         </h3>
         </div>
 
@@ -483,7 +413,7 @@
             <div class="card-body">
               <h5 class="card-title" style="display: none;"></h5>
               <p class="card-text"></p>
-              <a href="#" class="btn btn-primary" style="display: none;">Go somewhere</a>
+              <a href="#" class="btn btn-primary" style="display: none;"></a>
             </div>
           </div>
 
@@ -513,7 +443,7 @@
             <div class="card-body">
               <h5 class="card-title" style="display: none;"></h5>
               <p class="card-text"></p>
-              <a href="#" class="btn btn-primary" style="display: none;">Go somewhere</a>
+              <a href="#" class="btn btn-primary" style="display: none;"></a>
             </div>
           </div>
 
