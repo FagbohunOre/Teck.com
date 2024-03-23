@@ -849,9 +849,8 @@ input[type=text], select, textarea {
 
   @media screen and (max-width:990px){
 
-	body{
-		font-size: 100%;
-		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	.header{
+		display: none;
 	}
 	/* Contact Us */
 	.column, input[type=submit] {
@@ -878,12 +877,7 @@ input[type=text], select, textarea {
     .col{
         width: 100%;
     }
-	.section_extra{
-	 max-width: 100%;
-	 position: relative;
-	 display: block;	
-	 left: 1px;
-	}
+	
     
     .col + .col{
         margin-left: 4rem;
@@ -896,79 +890,23 @@ input[type=text], select, textarea {
 		display: none;
 	}
 	#section--2{
-		max-width: 990px;
+		display: none;
 	}
-	.section-title-2{
-      color: #130a0a;
-	}
+	
 	.card{
 		max-width: 100%;
    }
-   .section-four{
-	background-color: #222c2a;
-   }
-   .section-five{
-	background-color: #1b1f1e;
-   }
-   .section-six{
-	background-color: #1b1f1e;
-   }
-   .section-five .section-title{
-	color: #ffbb00;
-   }
-   .section-six .section-title{
-	color: #fd424b;
-   }
-   .section-five p{
-	font-size: 13.5px;
-   }
-   .section-six p{
-	font-size: 13.5px;
-   }
-   .section-four p{
-	font-size: 13.5px;
-   }
-   .section-three p{
-	font-size: 13.5px;
-   }
+   
    .container p{
 	color: #fff;
    }
-   .section-title-f{
-	color: #fd424b;
-   }
-  .section-title-2{
-	color: #ffbb00;
-  }
+  
    .operations {
 	max-width: 990px;
 	margin: 10rem auto 0 auto;
   
 	background-color: #fff;
   }
-
-  .operations p{
-	display: flex;
-	font-size: 90%;
-  }
-  
-  .operations__tab-container {
-	max-width: 990px;
-	display: flex;
-	justify-content: center;
-  }
-  
-  .operations__tab {
-	margin-right: .5rem;
-	transform: translateY(-50%);
-  }
-  
-  .operations__tab span {
-	margin-right: 1rem;
-	font-weight: 200;
-	display: inline-block;
-  }
-
   .modal__header{
 	font-size: 15px;
   }
