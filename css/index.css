@@ -859,10 +859,10 @@ input[type=text], select, textarea {
   #carouselExampleCaptions{
 	display: none;
   }
-  @media screen and (min-width:445px){
+  @media screen and (max-width:445px){
 
    .carousel-inner .d-block{
-	height: 420px;
+	height: 450px;
    }
   }
 
