@@ -862,7 +862,7 @@ input[type=text], select, textarea {
   @media screen and (max-width:430px){
 
    .carousel-inner .d-block{
-	height: 550px;
+	height: 600px;
    }
   }
 
